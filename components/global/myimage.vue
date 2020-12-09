@@ -1,7 +1,9 @@
 <template>
   
     <v-img
-      :src='msrc'     
+      :src='msrc'
+      :max-height='mheight'   
+      contain  
     >
       
     </v-img>  
@@ -13,6 +15,10 @@
     props: {
       msrc: {
         type: String,
+      },
+      mheight: {                
+        type: Number,
+        default: 500
       }
     },
     data () {

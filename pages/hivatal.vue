@@ -4,10 +4,13 @@
     <v-card-title>Polgármesteri Hivatal</v-card-title>
 
     <v-card-text>
-<p>
-<v-icon class="ma-2">mdi-city-variant</v-icon>Cím: 4974 Zajta, Kossuth u. 5.<br>
 
-<v-icon class="ma-2">mdi-phone-classic</v-icon>Telefonszám: 06-44/568-016
+
+<p>
+<v-icon class="ma-2">mdi-city-variant</v-icon>Cím: 4969 Tisztaberek, Fő utca 6/A<br>
+
+<v-icon class="ma-2">mdi-phone-classic</v-icon>Telefon: 0644368-327<br>
+<v-icon class="ma-2">mdi-email</v-icon>E-mail: tisztaberek@gmail.com
 </p>
 
 

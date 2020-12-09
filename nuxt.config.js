@@ -6,8 +6,8 @@ export default {
  
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - Zajta',
-    title: 'Zajta',
+    titleTemplate: '%s - Tisztaberek',
+    title: 'Tisztaberek',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -53,13 +53,13 @@ export default {
       dark: false,
       themes: {
         light: {
-          primary: '#2196f3',
-          secondary: '#009688',
-          accent: '#3f51b5',
-          error: '#8bc34a',
-          warning: '#ff5722',
-          info: '#795548',
-          success:'#4caf50'
+          primary: '#ff9800',
+          secondary: '#ffc107',
+          accent: '#607d8b',
+          error: '#e91e63',
+          warning: '#cddc39',
+          info: '#ff5722',
+          success: '#4caf50'
           },
         dark: {
           primary: colors.blue.darken2,

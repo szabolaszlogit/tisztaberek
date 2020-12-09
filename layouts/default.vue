@@ -147,7 +147,7 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Zajta',
+          title: 'Tisztaberek',
           to: '/'
         },
         {
@@ -165,49 +165,8 @@ export default {
           title: 'Képviselőtestület',
           to: '/testulet'
         },
-        {
-          title: 'Alapítvány',
-          to: '/alapitvany'
-        },
-        {
-        title: 'Egyesület',
-          to: '/egyesulet'
-        },
-        {
-        title: 'Településrendezési terv',
-          to: '/telepulesrendezesi'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Rendeletek',
-          to: '/inspire',
-          subLinks : [
-            {
-                text : 'Helyi adó (8/2009)',
-                to    : '/8-2009',
-                icon  : 'mdi-view-list'
-            }
-        ]
-        },
-        {
-          icon: 'mdi-file-document-multiple',
-          title: 'Pályázatok',
-          to: '/inspire',
-          subLinks : [
-            {
-                text : 'MFP-NHI/2019',
-                to    : '/MFP-NHI2019',
-                icon  : 'mdi-arrow-right-drop-circle-outline'
-            },
-            {
-                text : 'MFP OUF/2019',
-                to    : '/MFP OUF2019',
-                icon  : 'mdi-arrow-right-drop-circle-outline'
-            }
-        ]
-        },
       ],
-      title: 'Zajta'
+      title: 'Tiszteberek'
     }
   }
 }
