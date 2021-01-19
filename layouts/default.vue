@@ -165,6 +165,17 @@ export default {
           title: 'Képviselőtestület',
           to: '/testulet'
         },
+        {
+          icon: 'mdi-file-document-multiple',
+          title: 'Pályázatok',
+          to: '',
+          subLinks : [
+            {
+                text : 'MFP OUF 2019',
+                to    : '/palyazatok/mfpouf2019',
+            }
+        ]
+        },
       ],
       title: 'Tiszteberek'
     }
